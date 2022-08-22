@@ -1,0 +1,47 @@
+getgenv().prefix = ':' -- префикс, например :fly ник альта
+getgenv().controller = 0 -- сюда пиши айди основного акка
+getgenv().altFPS = 30 -- фпс для бота
+getgenv().adMessage = "yumeko лучший, написал этот скрипт!"
+getgenv().adMessageCooldown = 2
+getgenv().alts = { -- Максимум 38 альтов, где цифра 0, указывай айдишник альт аккаунта
+Alt1 = 0,
+Alt2 = 0,
+Alt3 = 0,
+Alt4 = 0,
+Alt5 = 0,
+Alt6 = 0,
+Alt7 = 0,
+Alt8 = 0,
+Alt9 = 0,
+Alt10 = 0,
+Alt11 = 0,
+Alt12 = 0,
+Alt13 = 0,
+Alt14 = 0,
+Alt15 = 0,
+Alt16 = 0,
+Alt17 = 0,
+Alt18 = 0,
+Alt19 = 0,
+Alt20 = 0,
+Alt21 = 0,
+Alt22 = 0,
+Alt23 = 0,
+Alt24 = 0,
+Alt25 = 0,
+Alt26 = 0,
+Alt27 = 0,
+Alt28 = 0,
+Alt29 = 0,
+Alt30 = 0,
+Alt31 = 0,
+Alt32 = 0,
+Alt33 = 0,
+Alt34 = 0,
+Alt35 = 0,
+Alt36 = 0,
+Alt37 = 0,
+Alt38 = 0,
+}
+-- loader
+loadstring(game:HttpGet("https://raw.githubusercontent.com/luslaMane/ControlAlt/main/Script%20Alt%20Control", true))()
